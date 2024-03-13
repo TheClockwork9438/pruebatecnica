@@ -1,0 +1,96 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1710345789305,
+        "children": [],
+        "todo": {
+          "content": "Implementar modelos de datos en models.py",
+          "id": 1710345789305,
+          "level": "default",
+          "done": false,
+          "start": 1710345789305
+        }
+      },
+      {
+        "key": 1710345808152,
+        "children": [],
+        "todo": {
+          "content": "Establecer la conexión con MongoDB en database.py",
+          "id": 1710345808152,
+          "level": "default",
+          "done": false,
+          "start": 1710345808152
+        }
+      },
+      {
+        "key": 1710345821216,
+        "children": [],
+        "todo": {
+          "content": "Implementar operaciones CRUD en crud.py",
+          "id": 1710345821216,
+          "level": "default",
+          "done": false,
+          "start": 1710345821216
+        }
+      },
+      {
+        "key": 1710345832354,
+        "children": [],
+        "todo": {
+          "content": "Definir los endpoints de la API en main.py",
+          "id": 1710345832354,
+          "level": "default",
+          "done": false,
+          "start": 1710345832354
+        }
+      },
+      {
+        "key": 1710345841759,
+        "children": [],
+        "todo": {
+          "content": "Escribir las instrucciones de Docker en Dockerfile y docker-compose.yml",
+          "id": 1710345841759,
+          "level": "default",
+          "done": false,
+          "start": 1710345841759
+        }
+      },
+      {
+        "key": 1710345850306,
+        "children": [],
+        "todo": {
+          "content": "Documentar los endpoints y el uso de la API en README.md",
+          "id": 1710345850306,
+          "level": "default",
+          "done": false,
+          "start": 1710345850306
+        }
+      },
+      {
+        "key": 1710345859083,
+        "children": [],
+        "todo": {
+          "content": "Implementar manejo concurrente utilizando asyncio",
+          "id": 1710345859083,
+          "level": "default",
+          "done": false,
+          "start": 1710345859083
+        }
+      }
+    ],
+    "expandKeys": [],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "timelines": [],
+    "showLine": false,
+    "playFontSize": 24,
+    "title": "todo",
+    "autoSort": false,
+    "showEndTime": false,
+    "simpleMode": false,
+    "lang": "en",
+    "version": "1710345863615"
+  }
+}

@@ -12,7 +12,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install any dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt uvicorn
 
 # Copy the rest of the application code to the working directory
 COPY . .

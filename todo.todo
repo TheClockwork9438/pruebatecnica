@@ -8,8 +8,10 @@
           "content": "Implementar modelos de datos en models.py",
           "id": 1710345789305,
           "level": "default",
-          "done": false,
-          "start": 1710345789305
+          "done": true,
+          "start": 1710345789305,
+          "focus": false,
+          "end": 1710383886340
         }
       },
       {
@@ -19,8 +21,10 @@
           "content": "Establecer la conexión con MongoDB en database.py",
           "id": 1710345808152,
           "level": "default",
-          "done": false,
-          "start": 1710345808152
+          "done": true,
+          "start": 1710345808152,
+          "focus": false,
+          "end": 1710383889240
         }
       },
       {
@@ -30,8 +34,10 @@
           "content": "Implementar operaciones CRUD en crud.py",
           "id": 1710345821216,
           "level": "default",
-          "done": false,
-          "start": 1710345821216
+          "done": true,
+          "start": 1710345821216,
+          "focus": false,
+          "end": 1710383894023
         }
       },
       {
@@ -41,8 +47,10 @@
           "content": "Definir los endpoints de la API en main.py",
           "id": 1710345832354,
           "level": "default",
-          "done": false,
-          "start": 1710345832354
+          "done": true,
+          "start": 1710345832354,
+          "focus": false,
+          "end": 1710383896604
         }
       },
       {
@@ -52,8 +60,10 @@
           "content": "Escribir las instrucciones de Docker en Dockerfile y docker-compose.yml",
           "id": 1710345841759,
           "level": "default",
-          "done": false,
-          "start": 1710345841759
+          "done": true,
+          "start": 1710345841759,
+          "focus": false,
+          "end": 1710383899770
         }
       },
       {
@@ -63,8 +73,10 @@
           "content": "Documentar los endpoints y el uso de la API en README.md",
           "id": 1710345850306,
           "level": "default",
-          "done": false,
-          "start": 1710345850306
+          "done": true,
+          "start": 1710345850306,
+          "focus": false,
+          "end": 1710385068150
         }
       },
       {
@@ -74,8 +86,10 @@
           "content": "Implementar manejo concurrente utilizando asyncio",
           "id": 1710345859083,
           "level": "default",
-          "done": false,
-          "start": 1710345859083
+          "done": true,
+          "start": 1710345859083,
+          "focus": false,
+          "end": 1710384656124
         }
       }
     ],
@@ -91,6 +105,6 @@
     "showEndTime": false,
     "simpleMode": false,
     "lang": "en",
-    "version": "1710345863615"
+    "version": "1710385073885"
   }
 }

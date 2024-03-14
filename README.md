@@ -7,19 +7,19 @@ Este repositorio contiene una API RESTful desarrollada con FastAPI que permite r
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/fastapi-user-api.git
+git clone https://github.com/TheClockwork9438/pruebatecnica.git
 ```
 
 2. Navega al directorio del proyecto:
+
 ```bash
-Copy code
-cd fastapi-user-api
+cd pruebatecnica
 ```
 
 3. Levanta la aplicación y la base de datos usando Docker Compose:
 
 ```bash
-docker-compose up --build
+docker-compose up -d --build
 ```
 
 La API estará disponible en http://localhost:8000.
@@ -30,6 +30,11 @@ POST /users/: Crea un nuevo usuario.
 GET /users/{user_id}: Obtiene un usuario por su ID.
 PUT /users/{user_id}: Actualiza un usuario existente.
 DELETE /users/{user_id}: Elimina un usuario existente.
+
+## API Documentation
+
+* [FastAPI](http://localhost:8000/docs) (Swagger)
+* [ReDocs](http://localhost:8000/redoc)
 
 ## Supuestos
 

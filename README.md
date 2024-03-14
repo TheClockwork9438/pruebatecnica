@@ -30,6 +30,7 @@ POST /users/: Crea un nuevo usuario.
 GET /users/{user_id}: Obtiene un usuario por su ID.
 PUT /users/{user_id}: Actualiza un usuario existente.
 DELETE /users/{user_id}: Elimina un usuario existente.
+GET /list-users/{skip}{limit}: Listar los usuarios con paginado. 
 
 ## Documentacion de la API
 

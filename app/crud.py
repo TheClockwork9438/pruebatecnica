@@ -28,3 +28,18 @@ def update_user(user_id: str, user: User):
 def delete_user(user_id: str):
     result = collection.delete_one({"_id": ObjectId(user_id)})
     return str(result.deleted_count)
+
+
+def find_users(skip: int = 0, limit: int = 10):
+    try:
+        # List users using pagination
+        cursor = collection.find({}).skip(skip).limit(limit)
+
+        users_list = []
+        for u in cursor:
+            u["_id"] = str(u["_id"])  # Convert ObjectId to string
+            users_list.append(u)
+
+        return users_list
+    except Exception as e:
+        return {"error": str(e)}

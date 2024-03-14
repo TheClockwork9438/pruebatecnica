@@ -13,7 +13,7 @@ git clone https://github.com/TheClockwork9438/pruebatecnica.git
 2. Navega al directorio del proyecto:
 
 ```bash
-cd pruebatecnica
+cd <ruta_donde_clono_el_repo>/pruebatecnica
 ```
 
 3. Levanta la aplicación y la base de datos usando Docker Compose:
@@ -31,11 +31,15 @@ GET /users/{user_id}: Obtiene un usuario por su ID.
 PUT /users/{user_id}: Actualiza un usuario existente.
 DELETE /users/{user_id}: Elimina un usuario existente.
 
-## API Documentation
+## Documentacion de la API
+
+Una vez levantado el servicio con docker-compose, quedaran disponible las siguientes urls para acceder a la documentacion detallada de la API y facilitar las pruebas de los endpoints. 
 
 * [FastAPI](http://localhost:8000/docs) (Swagger)
 * [ReDocs](http://localhost:8000/redoc)
 
 ## Supuestos
 
-Se asume que la aplicación FastAPI y MongoDB estarán disponibles en sus puertos predeterminados (8000 y 27017 respectivamente).
+> Se asume que la aplicación FastAPI y MongoDB estarán disponibles en sus puertos predeterminados (8000 y 27017 respectivamente).
+
+> Para el id del User se utiliza el _id autogenerado por MongoDB y PyMongo

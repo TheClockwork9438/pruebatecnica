@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from .models import User
-from .crud import create_user, get_user, update_user, delete_user
+from .crud import create_user, get_user, update_user, delete_user, find_users
 
 app = FastAPI()
 
@@ -36,3 +36,8 @@ async def delete_existing_user(user_id: str):
         raise HTTPException(status_code=404, detail="User not found")
     else:
         return {"message": "User deleted successfully"}
+
+
+@app.get("/list-users/")
+async def list_users(skip: int = 0, limit: int = 10):
+    return find_users(skip, limit)
